@@ -1,6 +1,6 @@
 //: concurrency/LiftOff.java
 // Demonstration of the Runnable interface.
-
+//并发编程
 public class LiftOff implements Runnable {
   protected int countDown = 10; // Default
   private static int taskCount = 0;
